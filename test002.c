@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(void)
 {
-    int h,t;
-    printf("Enter t:\n");
-    scanf("%d",&t);
-    h = 1.0/2*10*t*t;
-    printf("h = %d,\n",h);
+    int distance,time;
+    printf("Enter time:\n");
+    scanf("%d",&time);
+    distance = 1.0/2*10*time*time;
+    printf("Distance = %d,\n",distance);
 
     return 0;
 }
