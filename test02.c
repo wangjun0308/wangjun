@@ -3,7 +3,7 @@ int main(void)
 {
     int h,t;
     printf("Enter t:\n");
-    scanf("%d"&t);
+    scanf("%d",&t);
     h = 1.0/2*10*t*t;
     prinf("h = %d,\n",h);
 
