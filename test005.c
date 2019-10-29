@@ -2,11 +2,11 @@
 int main(void)
 {
     int a,b,c,d;
-    float sum ,i;
+    float s,i;
     printf("Enter a,b,c,d:\n");
     scanf("%d%d%d%d",&a,&b,&c,&d);
-    sum=a+b+c+d;
-    i=(sum/4.0*10.0)/10.0;
-    printf("sum=%1f, i=%1f\n",sum,i);
+    s=a+b+c+d;
+    i=(s/4.0*10.0)/10.0;
+    printf("s=%1f, i=%1f\n",s,i);
     return 0;
 }
