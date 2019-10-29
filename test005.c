@@ -7,6 +7,6 @@ int main(void)
     scanf("%d%d%d%d",&a,&b,&c,&d);
     s=a+b+c+d;
     i=(s/4.0);
-    printf("s=%1f, i=%1f\n",s,i);
+    printf("s=%.1f, i=%.1f\n",s,i);
     return 0;
 }
