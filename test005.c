@@ -6,7 +6,7 @@ int main(void)
     printf("Enter a,b,c,d:\n");
     scanf("%d%d%d%d",&a,&b,&c,&d);
     s=a+b+c+d;
-    i=(s/4.0*10.0)/10.0;
+    i=(s/4.0);
     printf("s=%1f, i=%1f\n",s,i);
     return 0;
 }
