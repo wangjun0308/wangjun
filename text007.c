@@ -1,16 +1,25 @@
 #include<stdio.h>
 int main(void)
 {
-    int n;
-    printf("Enter n:\n");
-    scanf("%d",&n);
-    if(n>=0){
-        n=n;
+    int max,i, j ,k;
+    printf("Enter i,j,k:\n");
+    scanf("%d%d%d",&i,&j,&k);
+    if(i>j){
+        if(i>k)
+        max=i;
+        else{
+            max=k;
+        }
     }
     else{
-        n=-n;
+        if(j>k)
+        max=j;
+        else{
+            max=k;
+        }
+    
     }
-    printf("|n| = %d",n);
+    printf("max = %d",max);
 
     return 0;
 }
