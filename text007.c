@@ -10,7 +10,7 @@ int main(void)
     else{
         n=-n;
     }
-    printf("%d",n);
+    printf("|n| = %d",n);
 
     return 0;
 }
