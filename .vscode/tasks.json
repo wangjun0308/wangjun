@@ -14,12 +14,9 @@
             "options": {
                 "cwd": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin"
             },
-//            "problemMatcher": [
-//                "$gcc"
-//            ],
-            "problemMatcher":{
+            "problemMatcher": {
                 "base": "$gcc",
-                "fileLocation":"autoDetect"
+                "fileLocation": "autoDetect"
             },
             "group": {
                 "kind": "build",
