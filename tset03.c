@@ -16,7 +16,7 @@ int main(void)
     }else if(n<=90){
         printf("B");
 
-    }else if(n<=100){
+    }else (n<=100){
         printf("A");
     }    
     return 0;
