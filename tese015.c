@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 int main(void)
 {
     int n,i;
@@ -12,14 +11,7 @@ int main(void)
             break;
         }
     }
-    if(i==n)
-    {
-        printf("yes!\n");
-    }
-    else
-    {
-        printf("no!\n");
-    }
-    }
+    printf("%d",n);
+
     return 0;
 }
