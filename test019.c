@@ -8,7 +8,7 @@ int main(void)
     {
         scanf("%d", &a[i]);
     }
-    for (i = 0; i < len; i++)
+    for (i = len-1; i >=0; i--)
     {
         printf("%5d", a[i]);
     }
