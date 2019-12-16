@@ -1,5 +1,7 @@
 #include<stdio.h>
 #define len 5
+int findmax(int x[],int n);
+
 int main(void)
 {
     int a[len],max,i;

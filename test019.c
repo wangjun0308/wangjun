@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define len 5
+void sort(int x[],int n);
 int main(void)
 {
     int a[len], i,max;
@@ -8,14 +9,24 @@ int main(void)
     {
         scanf("%d", &a[i]);
     }
-    max=a[0];
-    for (i = 1; i <len; i++)
-    {
-        if(a[i]>max){
-            max=a[i];
+    sort(a,len);
+    for(i=0;i<len;i++){
+        printf("%5d",a[i]);
+    }
+    return 0;
+
+}
+void sort(int x[],int n)
+{
+    int i,j,tmp;
+    for(i=0;i<n-1;i++){
+        for(j=i+1;j<n;j++){
+            if(x[j]>x[i]){
+                tmp=x[j];
+                x[j]=x[i];
+                x[i]=tmp;
+
+            }
         }
     }
-    printf("max is %d\n",max);
-
-    return 0;
 }
